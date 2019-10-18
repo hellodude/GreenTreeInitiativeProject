@@ -1,0 +1,1144 @@
+*{
+    margin: 0 ;
+    padding:0;
+}
+.header{
+    display:flex;
+    height:20hv;
+    background-color:#ffffff;   
+    padding:2% 10% 2% 10%;    
+}
+.logomenu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:70%;
+}
+.donatebox{
+    display:flex;
+    justify-content: center;
+    width:30%;
+}
+.donate{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height:50px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 3vw;
+    opacity: 1;
+    font: Bold 1.5vw Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    min-width: 5vw;
+}
+nav{
+    
+    font-size:1.5vw;
+    width:70%;
+    
+}
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    
+}
+nav li{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font: Light 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    
+}
+.logo{
+    display:flex;
+    text-align: left;
+    width:30%;
+    min-width: 100px;
+    font: Bold 130% Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    
+}
+.herocontainer{
+    display: flex;
+    background-image:url(img/annie-spratt-135307-unsplashdesktop.png);
+    background-size:cover;
+    padding:10%;
+}
+.box1{
+    position: relative;
+    width:33vw;
+    height:35vh;
+    background:#FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding:4%;
+}
+.smallbox{
+    position: absolute;
+    top:-5%;
+    left:8%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height:10%;
+    min-width: 100px;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.smallbox p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #354463;
+    font-weight:bold;
+    font: normal 1.2vw Helvetica;
+    min-width:100px;
+    color:#ffffff;
+    letter-spacing: 0.56px;
+    opacity: 1;
+}
+
+.box1 p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.climate{
+    text-align: left;
+    font: Bold 3vw Helvetica;
+    color: #354463;
+}
+.box1 a{
+    display:flex;
+    justify-content: flex-start;
+    margin-top:4vh;
+    font: Light 1.5vw Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+
+.box2{
+   height:35%;
+   align-items: center;
+   margin-left:14vw;
+   
+}
+.box2 h1{
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.7vw;
+    opacity: 1;
+    color:#ffffff;
+} 
+
+.footer{
+    position: relative;
+    display:flex;
+    padding:5% 10% 5% 10%;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+.takeaction{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:4vh;
+    width:14vw;
+    background: #354463 0% 0% no-repeat padding-box;
+    font: Regular 1% Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5vw;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+    top:-1.5vh;
+    left:45%;
+}
+.footer-content{
+    width:23%;
+    height:15vh;
+}
+.footer-content p{
+    text-align: left;
+    font: Light 4% Helvetica;
+    font-size: 1.3vw;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+.footer-content h6{
+    text-align: left;
+    font: Bold 3% Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    font-size: 1.7vw;
+}
+.what-mission-card{
+    height:100vh;
+    background-color: #354463;
+    padding:8% 10% 8% 10%;
+}
+.whatwedo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:5vh;
+    width:13vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font-style: Regular;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+
+}
+.txtmission{
+
+    padding:5% 0 8% 0;
+    height:10vh;
+    text-align: left;
+    font: Bold 2.8vw Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.child-container-section2{
+    display:flex;
+    height:65vh;
+    
+    padding:3%;
+    justify-content: space-between;
+}
+.c-container{
+    
+    width:20vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.img-box img{
+    margin-top:-4vh;
+    width:20vw;
+    margin-left:12%;
+}
+.header-para-txt{
+
+}
+.h-txt-c1{
+    margin-left:12%;
+    margin-right:5%;
+    text-align: left;
+    font: Bold 2.3vw Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+}
+.p-txt-c1{
+    margin:4% 5% 0 12%;
+    text-align: left;
+    font: Light 1vw Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+.readmorebox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:12vw;
+    height:6vh;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    margin:5% 5% 0 12%;
+}
+.readmore{
+
+    text-align: center;
+    font: Bold 1.5vw Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+}
+.thridsection{
+    background-image: url(img/Did\ you\ know\ backgrounddesktop.png);
+    background-size: cover;
+    display:flex;
+    padding:8% 10% 8% 10%;
+    justify-content: space-between;
+}
+.thirdsecbox1 .box2{
+    height:50vh;
+    margin-left:0;
+    
+}
+.thirdsecbox1 .readmorebox{
+    margin:0;
+}
+.thirdsecbox2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    position:relative;
+    width:30vw;
+    height:95vh;
+
+}
+.smallboxdidyouknow{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:absolute;
+    left:8%;
+    top:-2vh;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width:12vw;
+    height:5vh;
+    font-style: Regular;
+    font-size: 1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.thirdsecbox2child{
+    height:12vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    padding:8%;
+    
+}
+.innerboxchild h1{
+    text-align: left;
+    font-style:bold;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+}
+.innerboxchild p{
+    color: #354463;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:3% 3% 3% 0;
+}
+.childlogo{
+    width:2.7vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.twitterlogo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:30vw;
+    height:4vh;
+    width:4vh;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fblogo{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:30vw;
+    height:4vh;
+    width:4vh;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+@media only screen and (max-width:768px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    .header{
+        display:flex;
+        height:20hv;
+        background-color:#ffffff;
+        padding:2% 10% 2% 10%; 
+        
+    }
+    .logomenu{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        width:70%;
+    }
+    .donatebox{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:40%;
+        padding:0 10% 0 10%;
+    }
+    .donate{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height:40px;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        opacity: 1;
+        font-size:2.5vw;
+    }
+    nav{
+        width:100%;
+        font-size: 2.3vh;
+    }
+    nav ul{
+        display:flex;
+        justify-content:flex-start;
+        justify-content:space-between;
+        margin-top:5%;
+    
+    }
+    nav li{
+        display:inline-flex;
+        justify-content: flex-start;
+        font: Light 5vh Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+    }
+    .logo{
+        display:flex;
+        text-align: left;
+        width:100%;
+        font: Bold 130% Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+    }
+    .herocontainer{
+        display: flex;
+        flex-direction: column-reverse;
+        background-image:url(img/annie-spratt-135307-unsplashtablet.png);
+        background-size: cover;
+        padding:10%;
+    }
+    .box1{
+        position: relative;
+        width:57vw;
+        height:25vh;
+        background:#FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding:8%;
+
+    }
+    .box1 p{
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .climate{
+        text-align: left;
+        font: Bold 4vw Helvetica;
+        color: #354463;
+    }
+    .box1 a{
+        
+        text-decoration: underline;
+        font: Light 5% Helvetica;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+        margin-top:13%;
+    }
+    .smallbox{
+        
+        top:-5%;
+        left:8%;
+        display: flex;
+        justify-content: center;
+        width: 4vw;
+        height: 5vw;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .smallbox p{
+        display: flex;
+        align-items: center;
+        font: normal 2vw Helvetica;
+        letter-spacing: 0.56%;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .box2{
+    
+        margin: 0 0 20% 0;
+        height:30%;
+    }
+    .box2 h1{
+        
+        font-family: flood-std, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:6vw;
+        color:#ffffff;
+    } 
+    .takeaction{
+        width:18vw;
+        font-size:2vw;
+        left:40%;
+    }
+
+
+    .footer{
+        display:flex;
+        padding:5% 10% 5% 10%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        height: 30vh;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-content{
+        width:45%;
+        height:45%;
+    }
+    .footer-content p{
+        text-align: left;
+        font: Light 4% Helvetica;
+        font-size: 2.5vw;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+    }
+    .footer-content h6{
+        text-align: left;
+        font: Bold 3% Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        font-size: 3vw;
+    }
+
+    .what-mission-card{
+        height:180vh;
+        background-color: #354463;
+        padding:8% 10% 8% 10%;
+    }
+    .whatwedo{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:5vh;
+        width:16vw;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        text-align: center;
+        font-style: Regular;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+    
+    }
+    .txtmission{
+    
+        padding:5% 0 8% 0;
+        height:15vh;
+        text-align: left;
+        font: Bold 4vw Helvetica;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .child-container-section2{
+        display:flex;
+        flex-direction: column;
+        height:130vh;
+        
+        padding:3%;
+        justify-content: space-between;
+
+    }
+    .c-container{
+        width:90%;
+        height:30vh; 
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        
+        padding:5%;
+        display:flex;
+        flex-wrap:wrap;
+        position:relative;
+    
+    
+    }
+    .img-box{
+        position:absolute;
+        display:flex;
+        width:50%;
+    }
+    .img-box img{
+        margin-top:-7vh;
+        margin-left:3%;
+        width:100%;
+    }
+    .header-para-txt{
+        margin-left:60%;
+        height: 30vh;
+    }
+    .h-txt-c1{
+        margin:0;
+        text-align: left;
+        font: Bold 4vw Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        height: 10vh;
+    }
+    
+    .p-txt-c1{
+        margin:-8vh 0 0 0 ;
+        text-align: left;
+        font-style: Light;
+        font-size: 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+        margin-top:10%;
+    }
+    .c-container .readmorebox{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:5vw;
+        height:5vh;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        opacity: 1;
+        width:45%;
+        margin-top:-7vh;
+        
+    }
+    .readmore{
+    
+        text-align: center;
+        font: Bold 2vw Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+    }
+
+
+    .thridsection{
+        background-image: url(img/Did\ you\ know\ backgroundtablet.png);
+        background-size: cover;
+        display:flex;
+        padding:8% 10% 8% 10%;
+        justify-content: space-between;
+    }
+    .thirdsecbox1 .box2{
+        height:40vh;
+        width:25vw;
+        margin-left:0;
+        
+    }
+    .thirdsecbox1 .readmorebox{
+        margin:0;
+        width:80%;
+    }
+    .thirdsecbox2{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        position:relative;
+        width:35vw;
+        height:80vh;
+        padding:0;
+
+    
+    }
+    .smallboxdidyouknow{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        position:absolute;
+        left:8%;
+        top:-2vh;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width:15vw;
+        height:4vh;
+        font-style: Regular;
+        font-size: 1.5vw;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .thirdsecbox2child{
+
+        height:12vh;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        padding:8%;
+        
+    }
+    .innerboxchild h1{
+        text-align: left;
+        font-style:bold;
+        font-size: 3.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+    }
+    .innerboxchild p{
+
+        color: #354463;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:1.7vw;
+        margin:3% 3% 3% 0;
+    }
+    .childlogo{
+        width:4vw;
+
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    .twitterlogo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:30vw;
+        height:4vh;
+        width:4vh;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+    }
+    .fblogo{
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:30vw;
+        height:4vh;
+        width:4vh;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+    }
+
+}
+@media only screen and (max-width:376px){
+
+    .header{
+        display:flex;
+        padding:5% 10% 5% 10%;
+        flex-direction: column;
+        justify-content: flex-start;
+        height:20vh;
+        background-color:#ffffff;
+        
+    }
+    .logomenu{
+        margin:0 0 12% 0;
+        padding:0;
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        justify-content: space-between;
+        align-items:left;
+        width: 100%;
+        
+
+    }
+    .donatebox{
+        display:flex;
+        justify-content: center;
+        width:100%;
+        margin:0;
+        padding:0;
+        
+    }
+    .donate{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 5vh;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        border-radius: 100px;
+        opacity: 1;
+        font-size:2.5vh;
+    }
+    nav{
+        font-size:0.8rem;
+        width:50%;
+    }
+    nav ul{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    nav li{
+        display:inline-flex;
+        justify-content: flex-start;
+        font: Light  Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+        
+        
+        
+    }
+    .logo{
+        display:flex;
+        margin: 5% 0 0 0;
+        font: Bold 100% Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        padding:0 0 3% 0;
+        
+    }
+    .herocontainer{
+        display: flex;
+        flex-direction: column-reverse;
+        background-image:url(img/annie-spratt-135307-unsplashmobile.png);
+        background-size:cover;
+        padding:10%;
+        height: 70vh;
+    }
+    .box1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width:58vw;
+        height:30vh;
+        background:#FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding:12%;
+
+    }
+    .box1 p{
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content:center;
+
+    }
+    .climate{
+        text-align:center;
+        font: Bold 5vw Helvetica;
+        color: #354463;
+    }
+    .box1 a{
+        text-decoration: underline;
+        font: Light 5% Helvetica;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+        text-align:center;
+    }
+    .smallbox{
+        top:-5%;
+        left:30%;
+        width: 5vw;
+        height: 8vw;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .smallbox p{
+        display: flex;
+        align-items: center;
+        font: normal 3vw Helvetica;
+        letter-spacing: 0.56%;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .box2{
+        display:flex;
+        width:40%;
+        height:30%;
+        margin-bottom: 15%;
+    }
+    .box2 h1{
+        
+        font-family: flood-std, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:10vw;
+        color:#ffffff;
+    } 
+    .footer{
+        display:flex;
+        padding:12% 10% 12% 10%;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        height: 30vh;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .takeaction{
+        width:35vw;
+        font-size:3.5vw;
+        left:32%;
+    }
+
+    .footer-content{
+        width:35%;
+        height:45%;
+    }
+    .footer-content p{
+        text-align: left;
+        font: Light 4% Helvetica;
+        font-size: 3vw;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+    }
+    .footer-content h6{
+        text-align: left;
+        font: Bold 3% Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        font-size: 4vw;
+    }
+
+    .what-mission-card{
+        height:300vh;
+        background-color: #354463;
+        padding:8% 10% 8% 10%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .whatwedo{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:6vh;
+        width:40vw;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        text-align: center;
+        font-style: Regular;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+    
+    }
+    .txtmission{
+    
+        padding:7% 0 12% 0;
+        height:30vh;
+        text-align: center;
+        font: Bold 7vw Helvetica;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .child-container-section2{
+        display:flex;
+        flex-direction:column;
+        height:230vh;
+        justify-content: space-between;
+        
+    }
+    .c-container{
+        display: flex;
+        flex-direction: column;
+        height:55vh;
+        width:81%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding:9%;
+    }
+    .img-box{
+        
+        width: 80%;
+        
+    }
+    .img-box img{
+        margin-left:0;
+        margin-top:-7vh;
+        width:100%;
+        
+        
+    }
+    .header-para-txt{
+        margin-left:0;
+        margin:50% 0 10% 0;
+        width:100%;
+        
+
+
+    }
+    .h-txt-c1{
+        width:100%;
+        text-align:center;
+        font: Bold 6vw Helvetica;
+        height:6vh;
+        margin:3% 0 3% 0;
+    }
+    .ptxtread{
+        display:flex;
+        flex-direction: column;
+        font-size:3vw;
+        align-items: center;
+        height:25vh;
+    }
+
+    .p-txt-c1{
+        width:100%;
+        margin-top:1vh;
+        margin-bottom:1vh;
+        text-align:center;
+        font-style: Light;
+        font-family: Helvetica;
+        font-size: 4vw;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+    }
+    .readmorebox{
+        
+        margin:2% 0  0 27%;
+        
+
+    
+    }
+    .readmore{
+    
+        text-align: center;
+        font: Bold 4vw Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+    }
+
+
+    .thridsection{
+        background-image: url(img/Did\ you\ know\ backgroundtablet.png);
+        background-size: cover;
+        display:flex;
+        flex-direction:column;
+        padding:8% 10% 8% 10%;
+        justify-content: space-between;
+    }
+    .thirdsecbox1{
+        margin-bottom:10%;
+    }
+    .thirdsecbox1 .box2{
+        height:30vh;
+        margin:0;
+        padding:0;
+        width:80%;
+        
+    }
+    .thirdsecbox1 .readmorebox{
+        margin:0;
+        width:40%;
+        height:4vh;
+    }
+    .thirdsecbox2{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        position:relative;
+        width:100%;
+        height:80vh;
+        padding:0;
+
+    
+    }
+    .smallboxdidyouknow{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        position:absolute;
+        left:33%;
+        top:-2vh;
+        background: #354463 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width:25vw;
+        height:4vh;
+        font-style: Regular;
+        font-size: 2.5vw;
+        font-family:Arial, Helvetica, sans-serif;
+        letter-spacing: 0.56px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .thirdsecbox2child{
+
+        height:10vh;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        padding:8%;
+        
+    }
+    .innerboxchild h1{
+        text-align: left;
+        font-style:bold;
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+    }
+    .innerboxchild p{
+
+        color: #354463;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:3.5vw;
+        margin:3% 3% 3% 0;
+    }
+    .childlogo{
+        width:7.5vw;
+
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    .twitterlogo{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:30vw;
+        height:4vh;
+        width:4vh;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+    }
+    .fblogo{
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:30vw;
+        height:4vh;
+        width:4vh;
+        background: #C1F7D5 0% 0% no-repeat padding-box;
+        opacity: 1;
+
+    }
+    
+
+}

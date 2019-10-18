@@ -1,0 +1,656 @@
+*{
+
+    margin:0;
+    padding:0;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:15vh;
+
+}
+.logo{
+    text-align:center;
+    font-style: Bold;
+    font-size:2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+}
+
+.hero-container{ 
+    display:flex;
+    padding:8%;
+    background-image: url(../img/annie-spratt-427340-unsplash-\(1\)desktopdonation.png);
+    background-size: cover;
+    height:130vh;
+
+}
+.formfill{
+    width:30vw;
+    background: #354463;
+    opacity: 1;
+    padding: 4%;
+    border:1px solid red;
+}
+.yourinfo{
+
+    font: Bold 2.5vw Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin:3% 0 3% 0;
+}
+.labelname{
+    display: flex;
+    justify-content: space-between;
+    margin:3% 0 3% 0;
+
+}
+.commonname{
+    padding:3% 3% 3% 0;
+}
+.commonname input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom:3%;
+    width:100%;
+}
+
+.commonname select{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom:2vh;
+}
+.commonname label{
+    text-align: left;
+    font-style: Regular;
+    font-size: 1vw; 
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.streetadd{
+    margin:3% 0 3% 0;
+}
+.streetadd input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+}
+.city-state-zip{
+    display:flex;
+    justify-content: space-between;
+    margin:3% 0 3% 0;
+    
+}
+.city{
+    
+}
+.city label{
+    text-align: left;
+    font-style: Regular;
+    font-size: 1vw; 
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.city input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom:3%;
+    width:50%;
+}
+.state-zip{
+    display:flex;
+    justify-content: space-between;
+    width:50%;
+}
+.state{
+    width:50%;
+}
+.state label {
+    text-align: left;
+    font-style: Regular;
+    font-size: 1vw; 
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.state select {
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom:3%;
+    width:70%;
+}
+.zip{
+    width:50%;
+}
+.zip label{
+    text-align: left;
+    font-style: Regular;
+    font-size: 1vw; 
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.zip input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom:3%;
+    width:70%;
+}
+.expire-sercuritycode{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10%;
+}
+.expire{
+    display:flex;
+    justify-content: space-between;
+    width:50%;
+    
+
+}
+.exipration label{
+    text-align: left;
+    font-style: Regular;
+    font-size: 1vw; 
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.exipration input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    width:60%;
+    justify-content: space-between;
+    padding:1vh;
+    
+    
+    
+}
+.security{
+    width:40%;
+}
+.security label{
+    text-align: left;
+    font-style: Regular;
+    font-size: 1vw; 
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.security input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    width:40%;
+    padding:1vh;
+
+}
+.link-button{
+    display:flex;
+    justify-content: space-between;
+    margin:10% 0 10% 0;
+    align-items: center;
+}
+.buttonbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:6.5vh;
+    width:15vw;
+    background: #C1F7D5;
+    border-radius: 100px;
+    opacity: 1;
+}
+.payment{
+    font:bold 1vw Helvetica;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+}
+.link a{
+    color:white;
+}
+.box{
+
+   text-align:right;
+   width:25vw;
+   margin-left:10%;
+}
+.box h1{
+   
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    opacity: 1;
+    color: #ffffff;
+    
+}
+
+.footer{
+    height:25vh;
+    display:flex;
+    justify-content:space-between;
+    padding:8%;
+
+
+}
+.footer .logo{
+    font-size:1.5vw;
+}
+
+.inner-info-box{
+    width:15%;
+}
+.follow-box{
+    width:15%;
+}
+
+.contactus{
+    height:3.3vh;
+    border-bottom:1px solid #354463;
+    text-align: left;
+    font-style: Light; 
+    font-size: 1.3vw;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    margin-bottom:2vh;
+    width:80%;
+}
+.contact-info{
+    font: Light 0.9vw Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    width:65%;
+}
+
+
+.box-footer h1{
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    opacity: 1;
+    color: #354463;
+    text-align: right;
+    
+}
+@media only screen and (max-width:768px){
+
+    .header{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:15vh;
+    
+    }
+    .logo{
+        font-size:3vw;
+    }
+    
+    .hero-container{ 
+        display:flex;
+        flex-direction:column-reverse;
+        padding:10%;
+        background-image: url(../img/annie-spratt-427340-unsplash-\(1\)donationtablet.png);
+        background-size: cover;
+        height:170vh;
+    
+    }
+    .formfill{
+        width:90%;
+        height:75%;
+        padding: 5%;
+    }
+    .yourinfo{
+        font-size:4vw;
+        margin:3% 0 3% 0;
+    }
+    .your-information{
+        display:flex;
+        flex-direction: column;
+    }
+    .commonname{
+        padding:3% 3% 3% 0;
+    }
+    .commonname input{
+        padding-bottom:3%;
+        width:100%;
+    }
+    
+    .commonname select{
+        padding-bottom:1.5vh;
+    }
+    .commonname label{
+        font-size: 2vw; 
+    }
+    .streetadd{
+        margin:0 0 0 0;
+    }
+    .streetadd input{
+        background-color: #354463;
+        border:none;
+        border-bottom: 1px solid #ffffff;
+    }
+    .city-state-zip{
+        display:flex;
+        justify-content: space-between;
+        margin:3% 0 3% 0;
+        
+    }
+    .city label{
+        font-size: 2vw; 
+        
+    }
+    
+    .state-zip{
+        display:flex;
+        justify-content: space-between;
+        width:50%;
+    }
+    
+    .state label {
+        font-size: 2vw; 
+        
+    }
+    
+    .zip label{
+        font-size: 2vw; 
+        
+    }
+    
+    .expire-sercuritycode{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom:10%;
+    }
+    
+    .exipration label{
+        font-size: 2vw; 
+        
+    }
+    .security{
+        width:40%;
+    }
+    .security label{
+        font-size: 2vw; 
+    }
+    
+    .link-button{
+        margin:12% 0 12% 0;
+    }
+    .buttonbox{
+        height:7vh;
+        width:18vw;
+        
+    }
+    .payment{
+        font-size: 1.8vw;
+    }
+    .box{
+        text-align:center;
+       width:100%;
+       height:10%;
+    }
+    .box h1{
+        font-family: flood-std, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7vw;
+        opacity: 1;
+        color: #ffffff;
+    }
+    
+    .footer{
+        height:40vh;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        padding:8%;
+    }
+    .footer .logo{
+        width:30%;
+    }
+    .logo h4{
+        font-size:3vw;
+    }
+    .inner-info-box{
+        width:30%;
+
+    }
+    .inner-info-box{
+        width:30%;
+    }
+    .follow-box{
+        width:30%;
+        margin-left:35%;
+    }
+    
+    .contactus{
+        width:80%;
+        font-size:2vw;
+    }
+    .contact-info{
+        font: Light 0.9vw Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+        width:60%;
+    }
+    .box-footer{
+        
+        width:30%;
+        
+    }
+    .box-footer h1{
+        
+
+        font-size: 5vw;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vw;
+    }
+
+
+}
+
+@media only screen and (max-width:376px){
+
+    .header{
+        font-size:3.5vw;
+    }
+    .logo h4{
+        font-size:5.5vw;
+
+    }
+    
+    .hero-container{ 
+        display:flex;
+        flex-direction:column-reverse;
+
+        padding:8%;
+        background-image: url(../img/annie-spratt-427340-unsplash-\(1\)donationmobile.png);
+        background-size: cover;
+        height:120vh;
+    
+    }
+    .formfill{
+        width:90%;
+        height:90%;
+        padding: 5%;
+    }
+    .yourinfo{
+        font-size:6vw;
+        margin:3% 0 3% 0;
+    }
+    .commonname{
+        padding:3% 3% 3% 0;
+    }
+    .commonname input{
+        padding-bottom:3%;
+        width:100%;
+    }
+    
+    .commonname select{
+        padding-bottom:1.5vh;
+    }
+    .commonname label{
+        font-size: 3vw; 
+    }
+    .streetadd{
+        margin:0 0 0 0;
+    }
+    .streetadd input{
+        background-color: #354463;
+        border:none;
+        border-bottom: 1px solid #ffffff;
+    }
+    .city-state-zip{
+        display:flex;
+        justify-content: space-between;
+        margin:3% 0 3% 0;
+        
+    }
+    .city{
+        width:45%;
+    }
+    .city label{
+        font-size: 3.5vw; 
+        
+    }
+    .city input{
+        width:80%;
+    }
+    .state-zip{
+        display:flex;
+        justify-content: space-between;
+        width:55%;
+    }
+    
+    .state label {
+        font-size: 3.5vw; 
+        
+    }
+    
+    .zip label{
+        font-size: 3.5vw; 
+        
+    }
+    
+    .expire-sercuritycode{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom:10%;
+    }
+    
+    .exipration label{
+        font-size: 2vw; 
+        
+    }
+    .security{
+        width:40%;
+    }
+    .security label{
+        font-size: 2vw; 
+    }
+    
+    .link-button{
+        margin:12% 0 12% 0;
+        display:flex;
+        flex-direction:column-reverse;
+        align-items: flex-start;
+        height:10vh;
+        
+    }
+    .buttonbox{
+        height:6vh;
+        width:100%;
+    
+        
+    }
+    .payment{
+        font-size: 3vw;
+        
+    }
+    .link a{
+        text-align: left;
+        
+    }
+    .box{
+       width:100%;
+       height:12%;
+    }
+    .box h1{
+        
+        font-size: 7vw;
+        
+        
+    }
+    
+    .footer{
+        height:65vh;
+        display:flex;
+        justify-content:space-between;
+        padding:8%;
+    
+    
+    
+    }
+    .footer .logo{
+        font-size:5vw;
+        width:30%;
+        text-align: left;
+    }
+    
+    .inner-info-box{
+        width:50%;
+
+    }
+    .follow-box{
+        width:50%;
+        margin-left:0;
+    }
+    .contactus{
+        width:80%;
+        font-size:3.5vw;
+    }
+    .contact-info{
+        font: Light 0.8vw Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+        opacity: 1;
+        width:60%;
+    }
+    .box-footer{
+        width:50%;
+        margin-left:50%;
+    }
+    .box-footer h1{
+        
+        font-size: 9vw;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vw;
+        
+        
+    }
+
+
+}
